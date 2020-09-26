@@ -1,6 +1,4 @@
-
-
-import biotest.classA;
+package org.sample;
 
 public class classA {
 		public void method1() {
@@ -16,6 +14,8 @@ public class classA {
 		System.out.println("***THANK YOU***");
 
 	}
+	
+	
 	public static void main(String[] args) {
 		classA A= new classA();
 	A.method1();
