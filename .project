@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
+	<name>CentricApi</name>
+=======
 	<name>CentricReports</name>
+>>>>>>> 1358f4ce46d074e1e840bd186a1480f3113a9d22
 	<comment></comment>
 	<projects>
 	</projects>
