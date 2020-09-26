@@ -1,0 +1,419 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: karthick@kripya.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 26,
+        "name": "style type and material type",
+        "description": "",
+        "id": "configuration-and-setup;style-type-and-material-type;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User launches centric application",
+            "match": {
+              "location": "LoginPageSteps.user_launches_centric_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Click on setup icon",
+            "match": {
+              "location": "HomePageSteps.user_Click_on_setup_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User creates style type \"Apparel - Color and Size\",\"Accessories - Only Color\",\"Apparel - Only Size\",\"Accessories - No color and Size\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel - Color and Size",
+                  "offset": 25
+                },
+                {
+                  "val": "Accessories - Only Color",
+                  "offset": 52
+                },
+                {
+                  "val": "Apparel - Only Size",
+                  "offset": 79
+                },
+                {
+                  "val": "Accessories - No color and Size",
+                  "offset": 101
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_style_type(String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              15
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User fill the style type attributes fields",
+            "match": {
+              "location": "ConfigurationPageSteps.user_fill_the_style_type_attributes_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User creates material type \"Fabric - Stanadlone\",\"Fabric - Structure Component\",\"Fabric - Tool\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fabric - Stanadlone",
+                  "offset": 28
+                },
+                {
+                  "val": "Fabric - Structure Component",
+                  "offset": 50
+                },
+                {
+                  "val": "Fabric - Tool",
+                  "offset": 81
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_material_type(String,String,String)"
+            },
+            "matchedColumns": [
+              19,
+              20,
+              21
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User creates BOM type \"Apparel BOM\",\"Material BOM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel BOM",
+                  "offset": 23
+                },
+                {
+                  "val": "Material BOM",
+                  "offset": 37
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_BOM_type(String,String)"
+            },
+            "matchedColumns": [
+              22,
+              23
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User creates size chart type \"TM-All Season\",\"SC-Lock Dimension\",\"SC-Lock Values\",\"SC-Lock Tolerance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TM-All Season",
+                  "offset": 30
+                },
+                {
+                  "val": "SC-Lock Dimension",
+                  "offset": 46
+                },
+                {
+                  "val": "SC-Lock Values",
+                  "offset": 66
+                },
+                {
+                  "val": "SC-Lock Tolerance",
+                  "offset": 83
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_size_chart_type(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              25,
+              26,
+              27
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User creates spec type \"Spec Type-01\",\"Spec Type-02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Spec Type-01",
+                  "offset": 24
+                },
+                {
+                  "val": "Spec Type-02",
+                  "offset": 39
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_spec_type(String,String)"
+            },
+            "matchedColumns": [
+              28,
+              29
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User creates test type \"Wash Test\",\"Chemical Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wash Test",
+                  "offset": 24
+                },
+                {
+                  "val": "Chemical Test",
+                  "offset": 36
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_test_type(String,String)"
+            },
+            "matchedColumns": [
+              30,
+              31
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User performing delete action on test type",
+            "match": {
+              "location": "ConfigurationPageSteps.user_performing_delete_action_on_test_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User creates inspection type \"\u003cnoLink\u003e\",\"Ins Section-BOM\",\"Ins Section-Size Chart\",\"Ins Section-Spec Data Sheet\",\"Ins Section-Style Review\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cnoLink\u003e",
+                  "offset": 30
+                },
+                {
+                  "val": "Ins Section-BOM",
+                  "offset": 41
+                },
+                {
+                  "val": "Ins Section-Size Chart",
+                  "offset": 59
+                },
+                {
+                  "val": "Ins Section-Spec Data Sheet",
+                  "offset": 84
+                },
+                {
+                  "val": "Ins Section-Style Review",
+                  "offset": 114
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_inspection_type(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              11,
+              12,
+              13,
+              14
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User creates contractual documents \"CDOC-ALL\",\"CDOC-Simple\",\"CDOC-RA\",\"CDOC-HED\",\"CDOC-HRD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CDOC-ALL",
+                  "offset": 36
+                },
+                {
+                  "val": "CDOC-Simple",
+                  "offset": 47
+                },
+                {
+                  "val": "CDOC-RA",
+                  "offset": 61
+                },
+                {
+                  "val": "CDOC-HED",
+                  "offset": 71
+                },
+                {
+                  "val": "CDOC-HRD",
+                  "offset": 82
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_contractual_documents(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User creates LookUp items \"New-LookUp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New-LookUp",
+                  "offset": 27
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_LookUp_items(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User creates theme master \"TM-All Season\",\"TM-Single Season\",\"TM-Multiple Season\",\"TM-Allow material variation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TM-All Season",
+                  "offset": 27
+                },
+                {
+                  "val": "TM-Single Season",
+                  "offset": 43
+                },
+                {
+                  "val": "TM-Multiple Season",
+                  "offset": 62
+                },
+                {
+                  "val": "TM-Allow material variation",
+                  "offset": 83
+                }
+              ],
+              "location": "ConfigurationPageSteps.user_creates_theme_master(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click on update cnfiguration",
+            "match": {
+              "location": "HomePageSteps.user_click_on_update_cnfiguration()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "validate and accept the alert",
+            "match": {
+              "location": "ConfigurationPageSteps.validate_and_accept_the_alert()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Configuration and Setup",
+    "description": "",
+    "id": "configuration-and-setup",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/A_Config_Setup.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]
